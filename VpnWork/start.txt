@@ -1,0 +1,27 @@
+open the url:
+http://www.vpnbook.com/
+
+u will see username and password at the bottom .
+now copy that .
+download the file number 3  from the site  mostly..
+and extract it .
+copy the name of the file you want to run as per the port u  required e.g 80 ,2500, 53,...
+
+
+Open Terminal:  alt+ctrl+T
+
+
+type:
+
+
+openvpn NameofVpn
+It will ask for username and password 
+enter that 
+now ur vpn is enabled .
+you can check this in your browser.
+type :
+what is my ip
+you will find that your ip is keep changing.
+
+
+Thanks .
